@@ -6,6 +6,29 @@ body{
 
 a{
     color: black !important;
-    text-decoration: none;
+    text-decoration: none !important;
     display: block;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black !important;
+    transition: .3s;
+}
+
+.nav-link:hover{
+    color: red !important;
+    
+}
+
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-photo{
+    margin: 0px 10px !important;
 }
